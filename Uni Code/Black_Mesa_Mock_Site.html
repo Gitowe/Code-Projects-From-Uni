@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 0 Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info {
+            font-weight: bold;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"] {
+            margin-bottom: 0;
+        }
+
+        .checkbox input {
+            vertical-align: middle;
+        }
+        .checkbox label {
+            vertical-align: middle;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .prompt {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Black Mesa</h1>
+
+    <div class="logo">
+        <img src="https://static.wikia.nocookie.net/half-life/images/b/bc/Black_Mesa_logo_documents.svg/revision/latest?cb=20100327173831&path-prefix=en" alt="Black Mesa Logo" width="200" height="120">
+    </div>
+
+    <div class="info">
+        <p>Welcome to the Black Mesa Research Facility, a leading research facility specializing in experimental physics and applied sciences.</p><br><br>
+        <p>We are pleased to have you on our research team!</p>
+        <p>Please sign out the form below so we can add you to the system</a></p>
+    </div>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label></strong>Skills:</label>
+        <input type="checkbox" id="skill1" name="skill1">
+        <label for="skill1"><strong style="font-weight:normal">Computer Science</strong></label><br>
+        <input type="checkbox" id="skill2" name="skill2">
+        <label for="skill2"><strong style="font-weight:normal">Theoretical Physics</strong></label><br>
+        <input type="checkbox" id="skill3" name="skill3">
+        <label for="skill3"><strong style="font-weight:normal">Nuclear Engineering</strong></label><br>
+
+        <label>Preferred Language:</label>
+        <input type="radio" id="language1" name="language" value="english" checked>
+        <label for="language1"><strong style="font-weight:normal">English</strong></label>
+        <input type="radio" id="language2" name="language" value="spanish">
+        <label for="language2"><strong style="font-weight:normal">Spanish</strong></label><br>
+        
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="prompt">
+        <p>Thank you for being a part of the team, and welcome to Black Mesa!</p>
+        <p>For further contact please call: <a href="tel:+18007861410">1(800)-786-1410</a></p>
+        <p>Our website can be found <a href="https://half-life.fandom.com/wiki/Black_Mesa_Research_Facility">here</a></p>
+    </div>
+
+</body>
+
+</html>
