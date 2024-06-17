@@ -1,4 +1,4 @@
-# Code-Projects-From-Uni
+# Code-projects-from-Uni
 
 Repository to hold all the more interesting coding projects I did at my university.
 
